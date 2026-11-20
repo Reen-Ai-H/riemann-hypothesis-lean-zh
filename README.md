@@ -103,13 +103,13 @@ def RiemannHypothesis : Prop :=
 证明链条的最后几步其实很短：
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["所有狄利克雷 L 函数<br/>在 Re s > 1/2 没有零点<br/>（约 1700 万行）"] -->|"函数方程：零点左右对称"| B["L 函数零点<br/>都在 Re s = 1/2 上<br/>（广义黎曼猜想）"]
     A -->|"ζ 是模 1 的 L 函数"| C["ζ 在 Re s > 1/2<br/>没有零点"]
     C -->|"函数方程，约 60 行"| D["黎曼猜想<br/>（Mathlib 官方定义）"]
-    style A fill:#fff3cd,stroke:#d4a017
-    style D fill:#d4edda,stroke:#28a745
-    style B fill:#d4edda,stroke:#28a745
+    style A fill:#fff3cd,stroke:#d4a017,color:#111
+    style D fill:#d4edda,stroke:#28a745,color:#111
+    style B fill:#d4edda,stroke:#28a745,color:#111
 ```
 
 逐行解读和证明链条的文件位置见 👉 [docs/03-Lean陈述逐行解读.md](docs/03-Lean陈述逐行解读.md)

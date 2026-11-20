@@ -116,8 +116,8 @@ flowchart TD
     C --> D["Formalism.VW.rh_of_right<br/>GammaFactorNonvanishing/RhOfRight.lean<br/>（函数方程：右边无零点 ⇒ 左边也无零点）"]
     C --> E["allChi = UpperTheory.FinalTheorems.everyCharacter<br/>CharacterBoxes/MainConclusion.lean<br/>（所有 L 函数在 Re s > 1/2 无零点）"]
     E --> F["约 1700 万行：theta 提升链、岩泽塔、<br/>相对迹公式、K 理论……"]
-    style E fill:#fff3cd,stroke:#d4a017
-    style F fill:#f8d7da,stroke:#c0392b
+    style E fill:#fff3cd,stroke:#d4a017,color:#111
+    style F fill:#f8d7da,stroke:#c0392b,color:#111
 ```
 
 从上往下读：
