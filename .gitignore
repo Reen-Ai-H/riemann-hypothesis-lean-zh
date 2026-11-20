@@ -1,0 +1,11 @@
+# Lean / Lake 构建产物
+.lake/
+build/
+*.olean
+*.ilean
+
+# scripts/fetch-original.sh 下载的作者原始文件（不提交，见 original/README.md）
+original/*
+!original/README.md
+
+.DS_Store
